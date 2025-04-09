@@ -13,8 +13,8 @@ from wordcloud import WordCloud
 # ------------------- Load Model & Tokenizer -------------------
 @st.cache_resource
 def load_model_and_tokenizer():
-    model = tf.keras.models.load_model("../models/cnn_model.h5")
-    with open("../models/tokenizer.pkl", "rb") as f:
+    model = tf.keras.models.load_model("models/cnn_model.h5")
+    with open("models/tokenizer.pkl", "rb") as f:
         tokenizer = pickle.load(f)
     return model, tokenizer
 
