@@ -2,3 +2,10 @@ joblib
 streamlit
 scikit-learn
 tensorflow
+pandas
+matplotlib
+seaborn
+openpyxl
+wordcloud
+fpdf
+xlsxwriter
